@@ -1,0 +1,28 @@
+{
+  "name": "ig-snag",
+  "version": "0.0.0",
+  "description": "Download images from Instagram for a given tag.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encrypt": "encrypt config/config.json config/config.json.cast5",
+    "decrypt": "decrypt config/config.json.cast5 config/config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeresig/ig-snag.git"
+  },
+  "author": "John Resig <jeresig@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeresig/ig-snag/issues"
+  },
+  "homepage": "https://github.com/jeresig/ig-snag",
+  "dependencies": {
+    "instagram-node": "~0.1.13",
+    "config-leaf": "~0.1.0",
+    "async": "~0.2.9",
+    "request": "~2.30.0",
+    "mkdirp": "~0.3.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "auth": {
+        "client_id": "",
+        "client_secret": ""
+    },
+
+    "db": "mongodb://127.0.0.1:27017/ig-snag",
+    "collection": "kitten-images",
+
+    "tag": "kitten"
+}
